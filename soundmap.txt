@@ -1,0 +1,21 @@
+#key, name, mute, action, comment
+56, iRacingMasterVolume.mp3, True, False,      # rotary 1 red
+57, iRacingChatVolume.mp3, True, False,        # rotary 1 green
+58, SystemVolume.mp3, True, False,             # rotary 2 red
+59, GameVolume.mp3, True, False,               # rotary 2 green
+60, BrakeBias.mp3, True, False,                # rotary 3 red
+61, Spottervolume.mp3, True, False,             # rotary 3 green
+62, CrewChiefVolume.mp3, True, False,           # rotary 4 red
+63, TeamspeakVolume.mp3, True, False,           # rotary 4 green
+64, Channel.mp3, True, False,                   # rotary 5 red
+65, BlackBox.mp3, True, False,                  # rotary 5 green
+66, FFBDetail.mp3, True, False,               # rotary 6 red
+67, ForceFeedback.mp3, False, False,              # rotary 6 green
+78, Wing.mp3, True, False,                     # Modified Wing Control Push Button
+72, TractionControl.mp3, True, False,          # Traction Control Button
+77, BrakeBias.mp3, True, False,                # Brake Bias Button
+79, ABS.mp3, True, False,                      # ABS Button
+111, discord.exe, True, 0.1,						# Discord increase volume
+112, discord.exe, True, -0.1,						# Discord decrease volume
+113, dre.exe, True, 0.1,						# DRE increase volume
+114, dre.exe, True, -0.1,						# DRE decrease volume

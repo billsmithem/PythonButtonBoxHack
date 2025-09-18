@@ -1,0 +1,8 @@
+Python compiled from cmd prompt with pyinstaller (added via pip)
+
+Working copy in /jarvis/shared/Bill/code/Python/GameSound in git version control
+
+Edit there, copy to /chance/bill/OneDrive/Documents/Code/python/GameSound
+
+Build with command line:
+	pyinstaller GameSound.py

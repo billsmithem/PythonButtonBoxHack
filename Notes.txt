@@ -1,4 +1,0 @@
-Python compiled from cmd prompt with pyinstaller (added via pip)
-
-Build with command line:
-	pyinstaller GameSound.py

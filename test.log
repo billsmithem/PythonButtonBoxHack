@@ -1,0 +1,7 @@
+pygame 2.6.1 (SDL 2.28.4, Python 3.12.3)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Traceback (most recent call last):
+  File "C:\Users\bills\OneDrive\Documents\Code\python\GameSound.New\gui_audio_control.py", line 64, in <module>
+    action = float(action.strip())  # could be negative/positive for volume steps
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'False'

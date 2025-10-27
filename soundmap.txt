@@ -5,8 +5,8 @@
 59, GameVolume.mp3, True, False,               # rotary 2 green
 60, BrakeBias.mp3, True, False,                # rotary 3 red
 61, Spottervolume.mp3, True, False,             # rotary 3 green
-62, CrewChiefVolume.mp3, True, False,           # rotary 4 red
-63, TeamspeakVolume.mp3, True, False,           # rotary 4 green
+62, DREVolume.mp3, True, False,           # rotary 4 red
+63, DiscordVolume.mp3, True, False,           # rotary 4 green
 64, Channel.mp3, True, False,                   # rotary 5 red
 65, BlackBox.mp3, True, False,                  # rotary 5 green
 66, FFBDetail.mp3, True, False,               # rotary 6 red
@@ -15,7 +15,7 @@
 72, TractionControl.mp3, True, False,          # Traction Control Button
 77, BrakeBias.mp3, True, False,                # Brake Bias Button
 79, ABS.mp3, True, False,                      # ABS Button
-111, discord.exe, True, 0.1,						# Discord increase volume
-112, discord.exe, True, -0.1,						# Discord decrease volume
-113, dre.exe, True, 0.1,						# DRE increase volume
-114, dre.exe, True, -0.1,						# DRE decrease volume
+111, discord.exe, True, 0.05,						# Discord increase volume
+112, discord.exe, True, -0.05,						# Discord decrease volume
+113, DRE.exe, True, 0.05,						# DRE increase volume
+114, DRE.exe, True, -0.05,						# DRE decrease volume

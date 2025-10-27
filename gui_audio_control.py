@@ -134,7 +134,7 @@ def play_sound(button):
 # -----------------------------------------------------------------------------
 
 dpg.create_context()
-dpg.create_viewport(title="Audio Button Controller", width=800, height=600, resizable=True)
+dpg.create_viewport(title="Audio Button Controller", width=500, height=625, resizable=True)
 
 slider_tag_map = {}  # maps slider tags to app names
 

@@ -1,21 +1,23 @@
-#key, name, mute, action, comment
-56, iRacingMasterVolume.mp3, True, False,      # rotary 1 red
-57, iRacingChatVolume.mp3, True, False,        # rotary 1 green
-58, SystemVolume.mp3, True, False,             # rotary 2 red
-59, GameVolume.mp3, True, False,               # rotary 2 green
-60, BrakeBias.mp3, True, False,                # rotary 3 red
-61, Spottervolume.mp3, True, False,             # rotary 3 green
-62, DREVolume.mp3, True, False,           # rotary 4 red
-63, DiscordVolume.mp3, True, False,           # rotary 4 green
-64, Channel.mp3, True, False,                   # rotary 5 red
-65, BlackBox.mp3, True, False,                  # rotary 5 green
-66, FFBDetail.mp3, True, False,               # rotary 6 red
-67, ForceFeedback.mp3, False, False,              # rotary 6 green
-78, Wing.mp3, True, False,                     # Modified Wing Control Push Button
-72, TractionControl.mp3, True, False,          # Traction Control Button
-77, BrakeBias.mp3, True, False,                # Brake Bias Button
-79, ABS.mp3, True, False,                      # ABS Button
-111, discord.exe, True, 0.05,						# Discord increase volume
-112, discord.exe, True, -0.05,						# Discord decrease volume
-113, DRE.exe, True, 0.05,						# DRE increase volume
-114, DRE.exe, True, -0.05,						# DRE decrease volume
+# key, file_name_or_process, mute_microphone, action, comment
+56, iRacingMasterVolume.mp3, True, 0, Rotary 1 red button announces current mode
+57, iRacingChatVolume.mp3, True, 0, Rotary 1 green button announces current mode
+58, SystemVolume.mp3, True, 0, Rotary 2 red button announces current mode
+59, GameVolume.mp3, True, 0, Rotary 2 green button announces current mode
+60, BrakeBias.mp3, True, 0, Rotary 3 red button announces current mode
+61, Spottervolume.mp3, True, 0, Rotary 3 green button announces current mode
+62, DREVolume.mp3, True, 0, Rotary 4 red button announces current mode
+63, DiscordVolume.mp3, True, 0, Rotary 4 green button announces current mode
+64, Channel.mp3, True, 0, Rotary 5 red button announces current mode
+65, BlackBox.mp3, True, 0, Rotary 5 green button announces current mode
+66, FFBDetail.mp3, True, 0, Rotary 6 red button announces current mode
+67, ForceFeedback.mp3, False, 0, Rotary 6 green button announces current mode
+78, Wing.mp3, True, 0, Modified Wing Control Push Button
+72, TractionControl.mp3, True, 0, Traction Control Button
+77, BrakeBias.mp3, True, 0, Brake Bias Button
+79, ABS.mp3, True, 0, ABS Button
+
+# Rotary encoders controlling application volumes
+111, discord.exe, True, 0.05, Discord volume increase
+112, discord.exe, True, -0.05, Discord volume decrease
+113, DRE.exe, True, 0.05, DRE volume increase
+114, DRE.exe, True, -0.05, DRE volume decrease
